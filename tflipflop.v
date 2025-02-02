@@ -4,7 +4,7 @@ module tff(clk,rst,t,q,qn);
   output qn;
   always @ (posedge clk or posedge rst) begin
     if(rst) begin
-      t<=0;
+      q<=0;
     end
     else  begin
       if (t) begin
