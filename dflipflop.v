@@ -9,4 +9,5 @@ module dff(clk,rst,d,q,qn);
       q<=d;
     end
   end
+  assign qn= ~q;
 endmodule
