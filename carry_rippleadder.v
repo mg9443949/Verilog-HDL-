@@ -1,3 +1,4 @@
+//behavioural modelling
 module carry_rippe_adder(a,b,cin,sum,cout);
   input [3:0] a,b;
   input cin;
